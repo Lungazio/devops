@@ -7,6 +7,17 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>webapptest Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	<distributionManagement>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://localhost:8081/repository/devop_snap/</url>
+    </snapshotRepository>
+    <repository>
+        <id>nexus-releases</id>
+        <url>http://localhost:8081/repository/devops/</url>
+    </repository>
+</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
