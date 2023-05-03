@@ -23,7 +23,7 @@
 	</dependencies>
 	
 	<build>
-		<finalName>webappExample</finalName>
+		<finalName>webapp</finalName>
 		
 		<plugins>
 	<!-- Maven Plugin for Tomcat -->
