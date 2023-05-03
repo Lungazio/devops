@@ -9,11 +9,11 @@
 	<url>http://maven.apache.org</url>
 	<distributionManagement>
     <snapshotRepository>
-        <id>nexus-snapshots</id>
+        <id>devop_snap</id>
         <url>http://localhost:8081/repository/devop_snap/</url>
     </snapshotRepository>
     <repository>
-        <id>nexus-releases</id>
+        <id>devops</id>
         <url>http://localhost:8081/repository/devops/</url>
     </repository>
 </distributionManagement>
