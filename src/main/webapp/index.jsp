@@ -24,31 +24,44 @@
     }
     main {
       padding: 40px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
     }
-    main h2 {
-      font-size: 20px;
-      margin-bottom: 20px;
+    .product-card {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
-    main p {
-      font-size: 16px;
-      line-height: 1.6;
+    .product-card img {
+      width: 100%;
+      max-width: 150px;
+      height: auto;
+    }
+    .product-card h3 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .product-card p {
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to Test Website</h1>
+    <h1>Welcome to Test Sunglasses Shop</h1>
   </header>
   <main>
-    <h2>About Us</h2>
-    <p>
-      Welcome to our test website! We are dedicated to providing the best experience for our users.
-      Our team is constantly working on new features and improvements to make your visit as enjoyable as possible.
-    </p>
-    <p>
-      Feel free to explore our site and let us know if you have any questions or suggestions.
-      We appreciate your feedback and look forward to making this site even better for you.
-    </p>
+    <!-- Add product cards here -->
+    <div class="product-card">
+      <img src="sunglasses-vector-1.svg" alt="Sunglasses 1">
+      <h3>Sunglasses Model 1</h3>
+      <p>$49.99</p>
+    </div>
+    <!-- Add more product cards as needed -->
   </main>
 </body>
 </html>
