@@ -31,24 +31,35 @@
     }
     .product-card {
       display: inline-block;
-      background-color: #fff;
-      border: 1px solid #ddd;
+      background-color: #34495e;
+      border: 1px solid #2c3e50;
       padding: 20px;
       margin: 10px;
       text-align: center;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+    .product-card .icon-container {
+      background-color: #2c3e50;
+      border-radius: 50%;
+      padding: 20px;
+      margin-bottom: 15px;
     }
     .product-card .bi {
       font-size: 6rem;
-      color: #2c3e50;
-      margin-bottom: 15px;
+      color: #ecf0f1;
     }
     .product-card h3 {
       font-size: 18px;
       margin-bottom: 10px;
+      color: #ecf0f1;
     }
     .product-card p {
       font-size: 16px;
+      color: #ecf0f1;
     }
 
   </style>
@@ -60,34 +71,38 @@
   <main>
     <!-- Add product cards here -->
      <div class="product-card">
-    <i class="bi bi-sunglasses"></i>
-    <h3>cool sunglasses</h3>
-    <p>$49.99</p>
-  </div>
-  <div class="product-card">
-    <i class="bi bi-sunglasses"></i>
-    <h3>sick sunglasses</h3>
-    <p>$49.99</p>
-  </div>
-  
-  <div class="product-card">
-    <i class="bi bi-sunglasses"></i>
-    <h3>sweet sunglasses</h3>
-    <p>$49.99</p>
-  </div>
-  
-  <div class="product-card">
-    <i class="bi bi-sunglasses"></i>
-    <h3>rad sunglasses</h3>
-    <p>$49.99</p>
-  </div>
-  
-  <div class="product-card">
-    <i class="bi bi-sunglasses"></i>
-    <h3>chill sunglasses</h3>
-    <p>$49.99</p>
-  </div>
-  
+       <div class="icon-container">
+         <i class="bi bi-sunglasses"></i>
+       </div>
+       <h3>cool sunglasses</h3>
+       <p>$49.99</p>
+     </div>
+     <div class="product-card">
+        <div class="icon-container">
+          <i class="bi bi-sunglasses"></i>
+        </div>
+        <h3>cool sunglasses</h3>
+        <p>$49.99</p>
+      </div>   <div class="product-card">
+        <div class="icon-container">
+          <i class="bi bi-sunglasses"></i>
+        </div>
+        <h3>cool sunglasses</h3>
+        <p>$49.99</p>
+      </div>   <div class="product-card">
+        <div class="icon-container">
+          <i class="bi bi-sunglasses"></i>
+        </div>
+        <h3>cool sunglasses</h3>
+        <p>$49.99</p>
+      </div>   <div class="product-card">
+        <div class="icon-container">
+          <i class="bi bi-sunglasses"></i>
+        </div>
+        <h3>cool sunglasses</h3>
+        <p>$49.99</p>
+      </div>
+
     <!-- Add more product cards as needed -->
   </main>
 </body>
