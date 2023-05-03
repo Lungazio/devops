@@ -1,0 +1,12 @@
+<servers>
+  <server>
+    <id>devop_snap</id>
+    <username>admin</username>
+    <password>123</password>
+  </server>
+  <server>
+    <id>devops</id>
+    <username>admin</username>
+    <password>123</password>
+  </server>
+</servers>
