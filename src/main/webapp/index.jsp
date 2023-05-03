@@ -54,6 +54,7 @@
     .product-card .bi {
       font-size: 6rem;
       color: #2c3e50;
+      scale: 2;
     }
     .product-card h3 {
       font-size: 18px;
