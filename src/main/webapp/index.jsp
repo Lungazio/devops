@@ -86,25 +86,25 @@
         <div class="icon-container">
           <i class="bi bi-sunglasses"></i>
         </div>
-        <h3>cool sunglasses</h3>
+        <h3>cooler sunglasses</h3>
         <p>$49.99</p>
       </div>   <div class="product-card">
         <div class="icon-container">
           <i class="bi bi-sunglasses"></i>
         </div>
-        <h3>cool sunglasses</h3>
+        <h3>coolest sunglasses</h3>
         <p>$49.99</p>
       </div>   <div class="product-card">
         <div class="icon-container">
           <i class="bi bi-sunglasses"></i>
         </div>
-        <h3>cool sunglasses</h3>
+        <h3>very cool sunglasses</h3>
         <p>$49.99</p>
       </div>   <div class="product-card">
         <div class="icon-container">
           <i class="bi bi-sunglasses"></i>
         </div>
-        <h3>cool sunglasses</h3>
+        <h3>very cooler sunglasses</h3>
         <p>$49.99</p>
       </div>
 
