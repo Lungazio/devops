@@ -64,7 +64,7 @@
     }
     .product-card p {
       font-size: 16px;
-      color: #ecf0f1;
+      color: #2c3e50;
     }
 
   </style>
@@ -79,32 +79,32 @@
        <div class="icon-container">
          <i class="bi bi-sunglasses"></i>
        </div>
-       <h3>cool sunglasses</h3>
+       <h3>Cool Sunglasses</h3>
        <p>$49.99</p>
      </div>
      <div class="product-card">
         <div class="icon-container">
           <i class="bi bi-sunglasses"></i>
         </div>
-        <h3>cooler sunglasses</h3>
+        <h3>Cooler Sunglasses</h3>
         <p>$49.99</p>
       </div>   <div class="product-card">
         <div class="icon-container">
           <i class="bi bi-sunglasses"></i>
         </div>
-        <h3>coolest sunglasses</h3>
+        <h3>Coolest Sunglasses</h3>
         <p>$49.99</p>
       </div>   <div class="product-card">
         <div class="icon-container">
           <i class="bi bi-sunglasses"></i>
         </div>
-        <h3>very cool sunglasses</h3>
+        <h3>Very Cool Sunglasses</h3>
         <p>$49.99</p>
       </div>   <div class="product-card">
         <div class="icon-container">
           <i class="bi bi-sunglasses"></i>
         </div>
-        <h3>very cooler sunglasses</h3>
+        <h3>Very Cooler Sunglasses</h3>
         <p>$49.99</p>
       </div>
 
