@@ -58,7 +58,8 @@
     .product-card h3 {
       font-size: 18px;
       margin-bottom: 10px;
-      color: #ecf0f1;
+      font-family: 'Segoe UI',sans-serif;
+      color: #2c3e50;
     }
     .product-card p {
       font-size: 16px;
