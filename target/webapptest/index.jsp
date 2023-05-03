@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to Test Website</title>
   <style>
@@ -29,25 +30,27 @@
       gap: 20px;
     }
     .product-card {
+      display: inline-block;
       background-color: #fff;
-      padding: 20px;
       border: 1px solid #ddd;
+      padding: 20px;
+      margin: 10px;
       text-align: center;
-      border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
-    .product-card img {
-      width: 100%;
-      max-width: 150px;
-      height: auto;
+    .product-card .bi {
+      font-size: 6rem;
+      color: #2c3e50;
+      margin-bottom: 15px;
     }
     .product-card h3 {
       font-size: 18px;
-      margin: 10px 0;
+      margin-bottom: 10px;
     }
     .product-card p {
-      font-size: 14px;
+      font-size: 16px;
     }
+
   </style>
 </head>
 <body>
@@ -56,11 +59,35 @@
   </header>
   <main>
     <!-- Add product cards here -->
-    <div class="product-card">
-      <img src="sunglasses-vector-1.svg" alt="Sunglasses 1">
-      <h3>Sunglasses Model 1</h3>
-      <p>$49.99</p>
-    </div>
+     <div class="product-card">
+    <i class="bi bi-sunglasses"></i>
+    <h3>Sunglasses Model 1</h3>
+    <p>$49.99</p>
+  </div>
+  <div class="product-card">
+    <i class="bi bi-sunglasses"></i>
+    <h3>Sunglasses Model 1</h3>
+    <p>$49.99</p>
+  </div>
+  
+  <div class="product-card">
+    <i class="bi bi-sunglasses"></i>
+    <h3>Sunglasses Model 1</h3>
+    <p>$49.99</p>
+  </div>
+  
+  <div class="product-card">
+    <i class="bi bi-sunglasses"></i>
+    <h3>Sunglasses Model 1</h3>
+    <p>$49.99</p>
+  </div>
+  
+  <div class="product-card">
+    <i class="bi bi-sunglasses"></i>
+    <h3>Sunglasses Model 1</h3>
+    <p>$49.99</p>
+  </div>
+  
     <!-- Add more product cards as needed -->
   </main>
 </body>
