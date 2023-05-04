@@ -112,6 +112,24 @@
         <h3>Very Cooler Sunglasses</h3>
         <p>$49.99</p>
       </div>
+      <div class="icon-container">
+        <i class="bi bi-sunglasses"></i>
+      </div>
+      <h3>Coolest Sunglasses</h3>
+      <p>$49.99</p>
+    </div>   <div class="product-card">
+      <div class="icon-container">
+        <i class="bi bi-sunglasses"></i>
+      </div>
+      <h3>Very Cool Sunglasses</h3>
+      <p>$49.99</p>
+    </div>   <div class="product-card">
+      <div class="icon-container">
+        <i class="bi bi-sunglasses"></i>
+      </div>
+      <h3>Very Cooler Sunglasses</h3>
+      <p>$49.99</p>
+    </div>
 
     <!-- Add more product cards as needed -->
   </main>
